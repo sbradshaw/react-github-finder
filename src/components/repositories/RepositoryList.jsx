@@ -9,7 +9,7 @@ function RepositoryList({ repos }) {
           Latest Respositories
         </h2>
         {repos.map((repository) => (
-          <RepositoryItem key={repository.id} repo={repository} />
+          <RepositoryItem key={repository.id} repository={repository} />
         ))}
       </div>
     </div>
